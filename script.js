@@ -84,7 +84,7 @@ function editTask(e) {
   function editTextBlur(e) {
     let editTextBlur = e.target;
   
-    taskText.style.display = "flex";
+    taskText.style.display = "block";
     taskText.innerHTML = editTextBlur.value; 
   
     editTextBlur.classList.remove("change-text--active");
